@@ -33,7 +33,7 @@ nav a:hover {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-    text-shadow: #fcfbfb, 5px;
+    text-shadow: 1px 1px black;
 }
 #hero-msg h1 {
     text-align: center;
@@ -79,6 +79,8 @@ nav {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    border: 2px solid black;
+    text-shadow: 1px 1px black;
 }
 .book:hover, .join:hover{
     background-color: black;
@@ -190,7 +192,65 @@ footer .social img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.upper-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#faq-img{
+    grid-column: 2/4;
+    grid-row: 2/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 
+#faq-msg {
+    padding: 25px;
+    grid-row: 3/6;
+    grid-column: 8/11;
+    background-color: #E7C24F;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#common-q{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#fbackround{
+    height: 800px;
+    background-color: #90DDF0;
+    grid-column: 1/12;
+    grid-row: 1/8;
+}
+.faq-box{
+    padding: 10px;
+}
+#faq-msg h2{
+    font-size: 2.5em;
+    text-align: center;
+    font-family:  "Bangers", "Brush Script MT", cursive;
+    color: #396E94;
+}
+
+.question{
+    padding: 7px;
+    margin: 5px;
+    background-color: #E7C24F;
+    font-size: 1.5em;
+    text-align: center;
+    height: auto;
+    border: 2px solid black;
+}
+
+.answer{
+    font-size: 1.25em;
+    margin: 5px;
+    border: 2px solid black;
+    border-spacing: 15px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
