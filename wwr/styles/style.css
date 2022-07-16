@@ -219,10 +219,12 @@ footer .social img {
 }
 
 #fbackround{
+    width: 100%;
     height: 800px;
     background-color: #90DDF0;
     grid-column: 1/12;
     grid-row: 1/8;
+    
 }
 .faq-box{
     padding: 10px;
@@ -281,6 +283,9 @@ footer .social img {
         margin: 50px auto;
         width: 60%;
     }
+    #fbackround{
+        display: none;
+    } 
     #background {
         display: none;
     }
