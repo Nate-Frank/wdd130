@@ -19,7 +19,7 @@ root{--primary-color: #302f4e   ;
     align-self: center;
 }
 nav a {
-    font: "Dosis";
+    font-family: "Dosis", Helvetica, sans-serif;
     text-align: center;
     color: white;
     text-decoration: none;
