@@ -158,8 +158,7 @@ header {
     border:  10px solid black ;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
-    width: 500px;
-    height: 700px;
+    width: 100%;
 }
 .card-img:hover {
     opacity: .6;
