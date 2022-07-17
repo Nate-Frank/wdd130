@@ -38,6 +38,24 @@
             <div class="panel">
               <p>Off the beaten path Eagle Mountain is home to a great number of trails and even a Cross Country race course loop but despite all this is often seen as a backup option and second choice when visiting the Salt Lake area. These trails hold up exceptionally well when it rains or even lightly snows and if they do become muddy often dry up quickly making this the place to go after or even during a rainy day to get the most bang for your buck. There are two distinct areas of Eagle Mountain, the first beginning a short distance after hidden hollow elementary with a small beginner course as well as several cross-country courses and trails. The Second area is primarily a skills area that contains a variety of Jumps, Drops, Berms, Rollers, and even wall rides.</p>
             </div>
+            <script>var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+                
+                    /* Toggle between hiding and showing the active panel */
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                    }
+                  });
+                }</script>
         <main class="trail-grid">
             <div id="t-background"></div>
             <img class="t-mountains" src="images/trail_forest.jpg" alt="Trail through a dense forest of pinetrees">
