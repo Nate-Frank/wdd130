@@ -195,7 +195,6 @@ header {
 }
 #trail-hero-img{
     width: 100%;
-    padding-top: -200px;
 }
 #trail-hero-msg{
     grid-area: 3/2/4/3;
@@ -255,4 +254,54 @@ header {
     font-size:1.5em;
 
     
+}
+#blog-hero{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+}
+#b-background{
+    height: 725px;
+    background-color: #6a4151;
+    z-index: -1;
+    grid-column: 1/6;
+    grid-row: 1/7;
+}
+#blog-hero-box{
+    grid-area: 2/2/6/3
+}
+#blog-msg{
+    grid-area: 3/4/5/5;
+    background-color: #cf7b64;
+    font-size: 1em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#blog-msg h5{
+    font-size: 1.5em;
+    color: #302f4e;
+}
+.blog-grid{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+#b1-background{
+    height: 725px;
+    background-color: transparent;
+    z-index: -1;
+    grid-area: 1/1/4/4;
+    
+}
+.nutrition-card{
+    grid-area: 2/2/3/3;
+    border: 4px solid black;
+}
+.nutrition-card h6{
+    border: 2px solid black;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 0;
+    background-color: lightgray;
+}
+.nutrition-card p{
+    font-size: 1.25em;
 }
